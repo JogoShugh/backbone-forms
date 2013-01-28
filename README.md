@@ -421,7 +421,7 @@ The Object editor creates an embedded child form representing a Javascript objec
         address: { type: 'Object', subSchema: {
             street: {},
             zip: { type: 'Number' },
-            country: { 'Select', options: countries }
+            country: { type: 'Select', options: countries }
         }}
     };
     
